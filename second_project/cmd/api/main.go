@@ -24,4 +24,6 @@ func main() {
 	if err != nil {
 		log.Error(err)
 	}
+
+	fmt.Printf("GO API started on port 8080\n")
 }
